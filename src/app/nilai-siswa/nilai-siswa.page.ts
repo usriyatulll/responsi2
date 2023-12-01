@@ -109,7 +109,7 @@ export class NilaiSiswaPage implements OnInit {
         console.log('sukses', hasil);
         let nilai_siswa = hasil;
         this.id = nilai_siswa.id;
-        this.mata_pelajaran = nilai_siswa.mataPelajaran;
+        this.mata_pelajaran = nilai_siswa.mata_pelajaran;
         this.nilai = nilai_siswa.nilai;
         this.id_siswa = nilai_siswa.id_siswa;
       },
